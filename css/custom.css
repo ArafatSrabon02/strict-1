@@ -1,0 +1,317 @@
+.heading{
+    text-align: center;
+    padding: 70px 0;
+}
+.heading h2{
+    font-size: 40px;
+    color: #2d3950;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.heading p{
+    font-size: 20px;
+    color: #999999;
+    line-height: 30px;
+}
+
+header{
+    background-color: #f6f9f9;
+    padding: 28px 0px;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo img{}
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #2d3950;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px;
+}
+nav ul li a:hover{}
+
+.banner-section{
+    background: url(../images/banner.png);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-section .row{
+	justify-content: center;
+	min-height: 90vh;
+	align-items: center;
+}
+.banner-content{
+    text-align: center;
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-bottom: 280px;
+}
+.banner-content h1{
+    font-size: 120px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.banner-content span{
+    max-width: 100%;
+    background-color: #15a4fa;
+    display: block;
+    height: 2px;
+}
+.banner-content p{
+    font-size: 20px;
+    color: white;
+    margin-top: 35px;
+}
+.banner-content button{
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    padding: 15px 40px;
+    margin-top: 65px;
+    border-radius: 3px;
+}
+.arrow-down{
+    bottom: 3em;
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.arrow-down i{}
+
+.about-section{
+    background-color: #f6f9f9;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.features-section{}
+.features{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 65px 30px;
+}
+.feature-icon{
+    width: 100px;
+    height: 100px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+    background: #48baff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+    margin: auto;
+    line-height: 100px;
+    border-radius: 5px;
+}
+.feature-icon i{
+    font-size: 50px;
+    color: #fff;
+    line-height: 2;
+    text-shadow: 3px 4px 7px black;
+}
+
+.features h3{
+    font-size: 22px;
+    color: #2d3950;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.features p{}
+
+.showcase-section{
+    background-color: #f6f9f9;
+    padding-bottom: 95px;
+}
+.showcase{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.showcase-box{
+    position: relative;
+}
+.showcase-box img{}
+.showcase-box .overlay{
+    position: absolute;
+    background-color: #15a4facc;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+}
+.showcase-box:hover .overlay{
+	opacity: 1;
+	transition: all 0.5s;
+}
+.showcase-box .link{
+	position: absolute;
+	color: white;
+	top: 40%;
+	border: 2px solid white;
+	width: 30px;
+	height: 32px;
+	text-align: center;
+	line-height: 2;
+	left: 57%;
+	transform: translate(-60%, -50%);
+	border-radius: 5px;
+	opacity: 0;
+}
+.showcase-box:hover .link{
+	 opacity: 1;
+	 top: 50%;
+	 transition: all 0.7s;
+}
+.showcase-box .plus{
+	position: absolute;
+	color: white;
+	top: 60%;
+	left: 43%;
+	border: 2px solid white;
+	width: 30px;
+	height: 32px;
+	text-align: center;
+	line-height: 2;
+	transform: translate(-40%, -50%);
+	border-radius: 5px;
+	opacity: 0;
+}
+.showcase-box:hover .plus{
+	opacity: 1;
+	top: 50%;
+	transition: all 0.7s;
+}
+.contact-section{
+	background-image: url(../images/contact.png);
+	min-height: 67vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.contact-section .heading h2{
+    font-size: 41px;
+    color: #ffffff;
+}
+.contact-section .row{
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 110px;
+	}
+.contact-form{}
+.contact-form form{
+}
+.contact-form input,
+.contact-form textarea{
+	background-color: transparent;
+	width: 100%;
+	font-size: 15px;
+	padding: 20px;
+	margin-bottom: 15px;
+	color: #999999;
+	text-transform: capitalize;
+	border: 1px solid #999999;
+	}
+.contact-form form ul{}
+.contact-form form ul li{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.contact-form ul li input{}
+.contact-form ul li input[type="checkbox"]{
+    width: auto;
+    margin: 0;
+}
+.contact-form:hover ul li input[type="checkbox"]{
+	cursor: pointer;
+}
+.contact-form ul li input[type="submit"]{
+    width: auto;
+    float: right;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.contact-form:hover ul li input[type="submit"]{
+	cursor: pointer;
+	border: 1px solid #15a4fa;
+}
+.contact-form ul li label{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.contact-form ul li label{
+	cursor: pointer;
+}
+footer{
+    background-color: #f6f9f9;
+    padding: 33px 0px;
+}
+footer .row{
+	align-items: center;
+}
+.copyright{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.copyright p{
+    font-size: 15px;
+    color: #999999;
+}
+.copyright p a{
+    color: #999999;
+}
+.copyright:hover p a{
+	color: #15a4fa
+}
+.social{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+.social ul{
+    justify-content: flex-end;
+}
+.social ul li{
+	display: block;
+	padding: 5px;}
+.social ul li a{
+	font-size: 15px;
+	color: #fff;
+	background-color: #15a4fa;
+	border: 0;
+	padding: 15px;
+	border-radius: 2px;
+}
+.social ul li a:hover{
+	background-color: #fff;
+	color: #15a4fa;
+	border: 1px solid #15a4fa;
+}
+
+
+
+
+
+
+
+
+
+
